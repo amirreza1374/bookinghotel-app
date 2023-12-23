@@ -1,0 +1,26 @@
+.mapContainer {
+  flex: 1;
+  position: relative;
+}
+.mapContainer button.getLocation {
+  padding: 0.3rem 0.5rem;
+  font-size: 0.7rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  background-color: blue;
+  box-shadow: violet;
+  color: #fff;
+  z-index: 1000;
+}
+.map {
+  height: 100%;
+}
+
+input {
+  all: unset;
+  padding: 4px;
+  border: 1px solid #283593;
+}
