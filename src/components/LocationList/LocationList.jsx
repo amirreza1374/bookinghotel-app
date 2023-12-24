@@ -6,7 +6,10 @@ import {
 } from "@heroicons/react/24/outline";
 
 function LocationList() {
-  const { data, isLoading } = useFetch("http://localhost:5000/hotels", "");
+  const { data, isLoading } = useFetch(
+    "https://bookinghotel-backend.liara.run/hotels",
+    ""
+  );
 
   if (isLoading) <p>loading...</p>;
   return (

@@ -10,7 +10,7 @@ import toast from "react-hot-toast";
 import axios from "axios";
 
 const BookmarkContext = createContext();
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://bookinghotel-backend.liara.run";
 
 const initialState = {
   bookmarks: [],
