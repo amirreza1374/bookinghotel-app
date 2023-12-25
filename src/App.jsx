@@ -24,7 +24,7 @@ function App() {
           <Toaster />
           <Header />
           <Routes>
-            <Route path="/" element={<LocationList />} />
+            <Route path="/bookinghotel-app" element={<LocationList />} />
             <Route path="/login" element={<Login />} />
             <Route path="/hotels" element={<AppLayout />}>
               <Route index element={<Hotels />} />
