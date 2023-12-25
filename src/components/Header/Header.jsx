@@ -87,7 +87,7 @@ export default function Header() {
         <NavLink className="md:hidden" to="bookmark">
           <BookmarkIcon className="w-5 h-5" />
         </NavLink>
-        &#124; 
+        &#124;
         <div className=" items-center justify-center hidden md:flex">
           <MapPinIcon className="w-6 h-6 mr-2 text-orange-600" />
           <input
@@ -117,7 +117,7 @@ export default function Header() {
             <DateRange
               onChange={(item) => setDate([item.selection])}
               ranges={date}
-              className="absolute top-20 left-4 md:left-auto"
+              className="absolute z-10 top-20 left-4 md:left-auto"
               minDate={new Date()}
               moveRangeOnFirstSelection={true}
             />
@@ -179,7 +179,7 @@ function GuestOptions({ options, handleOptions, setOpenOptions }) {
   return (
     <div
       ref={optionsRef}
-      className="absolute top-50 right-16 bg-indigo-800 text-white rounded-lg px-3"
+      className="absolute top-50 right-16 z-10 bg-indigo-800 text-white rounded-lg px-3"
     >
       <OptionItem
         handleOptions={handleOptions}

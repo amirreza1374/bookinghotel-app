@@ -34,7 +34,7 @@ export default function Map({ markerLocations }) {
   return (
     <div className="mapContainer h-[300px] md:h-[400px] mt-8 border-4 border-orange-500">
       <MapContainer
-        className="map"
+        className="map z-[9]"
         center={mapCenter}
         zoom={13}
         scrollWheelZoom={true}
