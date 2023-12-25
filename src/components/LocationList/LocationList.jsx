@@ -4,6 +4,7 @@ import {
   SparklesIcon,
   CurrencyEuroIcon,
 } from "@heroicons/react/24/outline";
+import Loader from "../Loader/Loader";
 
 function LocationList() {
   const { data, isLoading } = useFetch(
@@ -11,7 +12,8 @@ function LocationList() {
     ""
   );
 
-  if (isLoading) <p>loading...</p>;
+  if (isLoading) return <Loader />;
+
   return (
     <div className="container max-w-[1440px] mx-auto px-2 font-ubuntu text-indigo-800">
       <h2 className="mx-2 text-base md:text-3xl font-bold my-3">
