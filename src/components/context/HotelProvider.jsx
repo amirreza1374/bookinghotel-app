@@ -35,7 +35,7 @@ export default function HotelProvider({ children }) {
       value={{
         isLoading,
         hotelsData,
-        getHotel,
+        
         currentHotel,
         getHotel,
         isLoadingCurrHotel,
