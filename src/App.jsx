@@ -25,6 +25,7 @@ function App() {
           <Header />
           <Routes>
             <Route path="/" element={<LocationList />} />
+            <Route path="/booking-app" element={<LocationList />} />
             <Route path="/login" element={<Login />} />
             <Route path="/hotels" element={<AppLayout />}>
               <Route index element={<Hotels />} />
