@@ -25,14 +25,14 @@ function App() {
           <Header />
           <Routes>
             
-            <Route path="/" element={<LocationList />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/hotels" element={<AppLayout />}>
+            <Route path="/bookinghotel-app" element={<LocationList />} />
+            <Route path="/bookinghotel-app/login" element={<Login />} />
+            <Route path="/bookinghotel-app/hotels" element={<AppLayout />}>
               <Route index element={<Hotels />} />
               <Route path=":id" element={<SingleHotel />} />
             </Route>
             <Route
-              path="/bookmark"
+              path="/bookinghotel-app/bookmark"
               element={
                 <ProtectedRoute>
                   <BookmarkLayout />
