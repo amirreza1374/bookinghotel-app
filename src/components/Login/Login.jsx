@@ -12,7 +12,7 @@ function Login() {
     if (email && password) login(email, password);
   };
   useEffect(() => {
-    if (isAuthenticated) navigate("/bookinghotel-app", { replace: false });
+    if (isAuthenticated) navigate("/", { replace: false });
   }, [isAuthenticated, navigate]);
   return (
     <div className="flex items-center justify-center text-indigo-800 font-bold font-ubuntu mt-24">
