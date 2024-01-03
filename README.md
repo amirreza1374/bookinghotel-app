@@ -18,11 +18,17 @@ in this project i used TAILWIND CSS for styles and responsive design.
 all back-end datas handled with JSON-SERVER package.
 
 all features that i used for this project:
-advanced state management with context and useReducer
-locate position on map,working on map
+
+advanced state management with context and useReducer,
+
+locate position on map,working on map,
+
 search and filter based on data base with searchParams
+
 using context and async actions
+
 fake authProvider on app
+
 use protected routes
 
 
