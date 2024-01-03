@@ -19,17 +19,20 @@ all back-end datas handled with JSON-SERVER package.
 
 all features that i used for this project:
 
-advanced state management with context and useReducer,
+1.advanced state management with context and useReducer
 
-locate position on map,working on map,
+2.locate position on map,working on map
 
-search and filter based on data base with searchParams
+3.search and filter based on data base with searchParams
 
-using context and async actions
+4.using context and async actions
 
-fake authProvider on app
+5.fake authProvider on app
 
-use protected routes
+6.use protected routes
+
+
+hope you enjoy❤️
 
 
 
